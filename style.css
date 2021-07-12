@@ -13,7 +13,9 @@ section{
 }
 .half-width{
     width:50%;
-    padding-left :6%;
+    padding-left :10%;
+    padding-top: 7%;
+    padding-bottom: 7%;
 }
 .half-width img{
     width:80%;
@@ -30,5 +32,27 @@ section{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
-
-
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: 200px;
+}
+.link-resume{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    color:white;
+    font-weight: 700;
+    border-radius: 10px;
+}
+.S-half{
+    width:40%;
+    padding-left: 3%;
+    padding-right :6%;
+    padding-bottom: 7%;
+}
+.S-half img{
+    width: 80%;
+    padding-left: 10%;
+}
