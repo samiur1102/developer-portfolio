@@ -5,11 +5,15 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .orange-color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
+    margin-bottom: 150px;
 }
 .half-width{
     width:50%;
@@ -55,4 +59,32 @@ section{
 .S-half img{
     width: 80%;
     padding-left: 10%;
+}
+.experience{
+    width:40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px 10px gray ;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(red, orange);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center; 
+    color: red;
 }
